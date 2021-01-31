@@ -2,14 +2,155 @@
   @import "reset.css";
 
 /* General */
-body {
+body, html {
     height: 100%;
     width: 100%;
     font-family: Effra-regular,Arial,sans-serif;
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 .clear {
     clear: both;
 }
+
 /* Header */
+#nav {
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    z-Index: 99999999999999999999999;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+
+#nav.toggled {
+    background-color: rgba(0, 164, 199, 0.5);
+}
+
+#nav a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+#nav .header ul li {
+    margin-top: 22px;
+    display: inline-block;
+}
+
+#nav .header .left {
+    float: left;
+    margin-left: 400px;
+}
+
+/* Parallax */
+.parallax {
+    width: 100%;
+    margin: auto;
+    height: 940px;
+    background-attachment: fixed;
+    background-position: initial;
+    background-image: url("../Images/Main7.jpg");
+}
+
+.parallax h1 {
+    position: absolute;
+    top: 560px;
+    left: 200px;
+    color: #ffffff;
+    font-size: 80px;
+}
+
+/* About me */
+#aboutme {
+    width: 100%;
+    height: 945px;
+    background: #1c1f3f;
+}
+
+#aboutme .overlay {
+    float: left;
+    padding-right: 340px;
+    padding-bottom: 945px;
+    background: #353a78;
+    border-radius: 0 85px 85px 0;
+    -webkit-border-radius: 0 85px 85px 0;
+    -moz-border-radius: 0 85px 85px 0;
+    -ms-border-radius: 0 85px 85px 0;
+    -o-border-radius: 0 85px 85px 0;
+}
+
+#aboutme img {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 170px;
+    width: 24%;
+    -webkit-box-shadow: 0px 0px 11px 10px #000000; 
+    box-shadow: 0px 0px 11px 10px #000000;
+}
+
+#aboutme p {
+    width: 60%;
+    height: 60%;
+    font-size: 30px;
+    text-align: left;
+    text-shadow: #000000;
+    /*background: red;*/
+    color: #ffffff;
+    position: relative;
+    top: 190px;
+    left: 350px;
+    padding-left: 100px;
+}
+
+/* Social media */
+#socialmedia {
+    width: 100%;
+    height: 945px;
+    background: #1c1f3f;
+}
+
+#socialmedia .headover {
+    height: 127px;
+    width: 100%;
+    background: #2e3268;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    -webkit-box-shadow: 0px 25px 20px 0px #000000; 
+    box-shadow: 0px 25px 20px 0px #000000;
+}
+
+#socialmedia .social {
+    background: red;
+}
+
+#socialmedia .social img {
+    width: 10%;
+    background: red;
+}
+
+#socialmedia .right {
+    float: right;
+}
+
+#socialmedia .left {
+    float: left;
+}
+
+#socialmedia .social ul li {
+    background: none;
+    display: inline-block;
+}
+
+
+
+
+
+
