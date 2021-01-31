@@ -8,64 +8,8 @@ body {
     font-family: Effra-regular,Arial,sans-serif;
     margin: auto;
 }
+
+.clear {
+    clear: both;
+}
 /* Header */
-#nav {
-    height: 50px;
-    position: fixed;
-    width: 100%;
-    transition: 0.7s;
-    z-Index: 999999999999999999999999999999;
-}
-
-#nav.toggled {
-    background-color: rgba(69, 162, 158, 0.8);
-}
-
-#nav a {
-    font-size: 18px;
-    /*background: red;*/
-    margin-right: 20px;
-    color: #fff;
-    text-decoration: none;
-    padding: 15px;
-    position: relative;
-    opacity: 100%;
-}
-
-#nav a:after {
-  border-bottom: 3px solid;
-  margin-top: 10px;
-  opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(0,1);
-	transform: scale(0,1);
-}
-
-#nav a:hover:after {
-    opacity: 1;
-      -webkit-transform: scale(1);
-    transform: scale(1);
-}
-
-#nav .header ul li {
-    margin-top: 15px;
-    display: inline-block;
-}
-
-/* Header Right */
-#nav .header .right {
-    float: right;
-    margin-right: 200px;
-}
-
-/* Header Left */
-#nav .header .left {
-    margin-left: 200px;
-    float: left;
-}
-
-.header .left .dash {
-    margin-right: 18px;
-    color: #fff;
-}
