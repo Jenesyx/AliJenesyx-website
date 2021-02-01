@@ -16,10 +16,10 @@ body, html {
 
 /* Header */
 #nav {
-    font-size: 20px;
+    font-size: 23px;
     width: 100%;
     position: fixed;
-    height: 60px;
+    height: 70px;
     z-Index: 99999999999999999999999;
     transition: 0.6s;
     -webkit-transition: 0.6s;
@@ -41,7 +41,7 @@ body, html {
 }
 
 #nav .header ul li {
-    margin-top: 22px;
+    margin-top: 26px;
     display: inline-block;
 }
 
@@ -53,11 +53,10 @@ body, html {
 /* Parallax */
 .parallax {
     width: 100%;
-    margin: auto;
-    height: 940px;
+    height: 100%;
+    background-image: url("../Images/Main1.jpg");
     background-attachment: fixed;
     background-position: initial;
-    background-image: url("../Images/Main7.jpg");
 }
 
 .parallax h1 {
@@ -71,14 +70,14 @@ body, html {
 /* About me */
 #aboutme {
     width: 100%;
-    height: 945px;
+    height: 100%;
     background: #1c1f3f;
 }
 
 #aboutme .overlay {
     float: left;
     padding-right: 340px;
-    padding-bottom: 945px;
+    padding-bottom: 1171px;
     background: #353a78;
     border-radius: 0 85px 85px 0;
     -webkit-border-radius: 0 85px 85px 0;
@@ -105,15 +104,15 @@ body, html {
     /*background: red;*/
     color: #ffffff;
     position: relative;
-    top: 190px;
-    left: 350px;
+    top: 240px;
+    left: 490px;
     padding-left: 100px;
 }
 
 /* Social media */
 #socialmedia {
     width: 100%;
-    height: 945px;
+    height: 100%;
     background: #1c1f3f;
 }
 
@@ -128,25 +127,121 @@ body, html {
 }
 
 #socialmedia .social {
-    background: red;
+    width: 95%;
+    height: 85%;
+    margin: auto;
 }
 
 #socialmedia .social img {
-    width: 10%;
-    background: red;
+    margin-top: 65px;
+    width: 20%;
 }
 
-#socialmedia .right {
+/* Twitch */
+#socialmedia .social .right .twitch {
+    padding: 75px 250px 75px 250px;
+    background: #353a78;
+    border: 3px solid #00ffff;
+    border-radius: 0 30px 0 0;
+    -webkit-border-radius: 0 30px 0 0;
+    -moz-border-radius: 0 30px 0 0;
+    -ms-border-radius: 0 30px 0 0;
+    -o-border-radius: 0 39px 0 0;
+    -webkit-box-shadow: 0px 0px 50px 20px #0D23C6; 
+    box-shadow: 0px 0px 50px 20px #0D23C6;
+}
+
+/* Discord */
+#socialmedia .social .right .discord {
+    padding: 75px 250px 75px 250px;
+    background: #353a78;
+    border: 3px solid #00ffff;
+    border-radius: 0 0 39px 0;
+    -webkit-border-radius: 0 0 39px 0;
+    -moz-border-radius: 0 0 39px 0;
+    -ms-border-radius: 0 0 39px 0;
+    -o-border-radius: 0 0 39px 0;
+    -webkit-box-shadow: 0px 0px 50px 20px #0D23C6; 
+    box-shadow: 0px 0px 50px 20px #0D23C6;
+}
+
+/* Instagram */
+#socialmedia .social .left .instagram {
+    margin-left: 110px;
+    padding: 75px 250px 75px 250px;
+    background: #353a78;
+    border: 3px solid #00ffff;
+    border-radius: 39px 0 0 0;
+    -webkit-border-radius: 39px 0 0 0;
+    -moz-border-radius: 39px 0 0 0;
+    -ms-border-radius: 39px 0 0 0;
+    -o-border-radius: 39px 0 0 0;
+    -webkit-box-shadow: 0px 0px 50px 20px #0D23C6; 
+    box-shadow: 0px 0px 50px 20px #0D23C6;
+}
+
+/* Youtube */
+#socialmedia .social .left .youtube {
+    margin-left: 110px;
+    padding: 75px 250px 75px 250px;
+    background: #353a78;
+    border: 3px solid #00ffff;
+    border-radius: 0 0 0 39px;
+    -webkit-border-radius: 0 0 0 39px;
+    -moz-border-radius: 0 0 0 39px;
+    -ms-border-radius: 0 0 0 39px;
+    -o-border-radius: 0 0 0 39px;
+    -webkit-box-shadow: 0px 0px 50px 20px #0D23C6; 
+    box-shadow: 0px 0px 50px 20px #0D23C6;
+}
+
+#socialmedia .social .right {
+    margin-right: 215px;
+    margin-top: 90px;
     float: right;
+    width: 40%;
+    height: 70%;
 }
 
-#socialmedia .left {
+#socialmedia .social .left {
+    margin-left: 215px;
+    margin-top: 90px;
     float: left;
+    width: 40%;
+    height: 70%;
 }
 
-#socialmedia .social ul li {
-    background: none;
-    display: inline-block;
+#socialmedia .social .left ul li {
+    margin-left: 100px;
+}
+
+#socialmedia .social .right ul li {
+    margin-right: 100px;
+}
+
+/* Skills */
+#skills {
+    width: 100%;
+    height: 100%;
+    background: #1c1f3f;
+}
+
+/* Footer */
+#footer {
+    font-size: 22px;
+    background:#4b4b4b;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+#footer .fa-heart {
+    color: #D52A2A;
+}
+
+#footer .fa-coffee {
+    color: #f9ab25;
 }
 
 
