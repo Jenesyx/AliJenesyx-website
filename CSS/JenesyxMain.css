@@ -341,8 +341,16 @@ body, html {
 }
 
 #skills .left .adobe img {
-    background: #0D23C6;
     position: relative;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+#skills .left .adobe img:hover {
+    background: #353a78;
     padding: 10px 350px 10px 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -352,17 +360,31 @@ body, html {
 }
 
 #skills .left .adobe p {
+    color: #fff;
     font-size: 40px;
     position: relative;
-    left: 290px;
-    bottom: 125px;
+    left: 180px;
+    bottom: 40px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 }
 
 #skills .left .twitchyt img {
     position: relative;
     margin-top: 140px;
     margin-left: 60px;
-    background: #D52A2A;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+#skills .left .twitchyt img:hover {
+    background: #353a78;
     padding: 10px 350px 10px 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -372,10 +394,16 @@ body, html {
 }
 
 #skills .left .twitchyt p {
+    color: #fff;
     font-size: 35px;
     position: relative;
-    left: 330px;
-    bottom: 120px;
+    left: 230px;
+    bottom: 20px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 }
 
 #skills .right {
@@ -387,9 +415,17 @@ body, html {
 }
 
 #skills .right .musicsports img {
-    background: #D52A2A;
-    padding: 10px 350px 10px 20px;
     margin-left: 90px;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+#skills .right .musicsports img:hover {
+    background: #353a78;
+    padding: 10px 350px 10px 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -398,15 +434,29 @@ body, html {
 }
 
 #skills .right .musicsports p {
+    color: #fff;
     font-size: 35px;
     position: relative;
-    left: 370px;
-    bottom: 120px;
+    left: 260px;
+    bottom: 20px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 }
 
 #skills .right .gaming img {
-    background: #00ffff;
     margin-top: 90px;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+#skills .right .gaming img:hover {
+    background: #353a78;
     padding: 10px 350px 10px 20px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -416,10 +466,16 @@ body, html {
 }
 
 #skills .right .gaming p {
+    color: #fff;
     font-size: 35px;
     position: relative;
-    left: 290px;
-    bottom: 120px;
+    left: 180px;
+    bottom: 30px;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 }
 
 
@@ -444,9 +500,5 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-width: 1537px) {
-
-
-
-
-
-
+    
+}
