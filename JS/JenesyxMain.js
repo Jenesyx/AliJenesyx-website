@@ -5,31 +5,71 @@ window.onload = function(){
     }
 }
 
-function havij() 
-{
-    document.getElementById('text1').style.left = "290px"
-    document.getElementById('text1').style.bottom = "125px"
+function havij(t) 
+{   
+    if (t == "in")
+    {
+        document.getElementById('text1').style.left = "290px"
+        document.getElementById('text1').style.bottom = "125px"
+        return
+    }
+    
+    else (t == "out")
+    {
+        document.getElementById('text1').style.left = "180px"
+        document.getElementById('text1').style.bottom = "40px"
+        return
+    }
 }
 
-function moz() 
-{
-    document.getElementById('text2').style.left = "330px"
-    document.getElementById('text2').style.bottom = "120px"
+function moz(t) 
+{   
+    if (t == "in")
+    {
+        document.getElementById('text2').style.left = "310px"
+        document.getElementById('text2').style.bottom = "120px"
+        return
+    }
+    
+    else (t == "out")
+    {
+        document.getElementById('text2').style.left = "230px"
+        document.getElementById('text2').style.bottom = "20px"
+        return
+    }
 }
 
-function sib() 
-{
-    document.getElementById('text3').style.left = "370px"
-    document.getElementById('text3').style.bottom = "120px"
+function sib(t) 
+{   
+    if (t == "in")
+    {
+        document.getElementById('text3').style.left = "360px"
+        document.getElementById('text3').style.bottom = "120px"
+        return
+    }
+    
+    else (t == "out")
+    {
+        document.getElementById('text3').style.left = "260px"
+        document.getElementById('text3').style.bottom = "20px"
+        return
+    }
 }
 
-function gilas() 
-{
-    document.getElementById('text4').style.left = "290px"
-    document.getElementById('text4').style.bottom = "125px"
+function gilas(t) 
+{   
+    if (t == "in")
+    {
+        document.getElementById('text4').style.left = "310px"
+        document.getElementById('text4').style.bottom = "120px"
+        return
+    }
+    
+    else (t == "out")
+    {
+        document.getElementById('text4').style.left = "180px"
+        document.getElementById('text4').style.bottom = "30px"
+        return
+    }
 }
 
-function khiar()
-{
-    document.getElementById('text1')
-}
