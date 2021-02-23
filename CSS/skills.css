@@ -8,6 +8,7 @@ body {
     font-family: tahoma;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .clear {
@@ -22,7 +23,7 @@ a {
 #skills .home {
     /*background: red;*/
     float: right;
-    margin: 100px 400px 0 0;
+    margin: 100px 435px 0 0;
 }
 
 #skills .home a {
@@ -109,13 +110,33 @@ a {
 }
 
 #skills .main .textfild p {
-    width: 200px;
+    width: 90%;
     position: relative;
     color: #fff;
     font-size: 20px;
     top: 15px;
     left: 25px;
-    background: red;
+    /*background: red;*/
     text-align: left;
     line-height: 34px;
+}
+
+#skills .main .overone .overthree {
+    /*background: rgba(0, 0, 0, 0.6);*/
+    margin-top: 17px;
+    border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
+}
+
+#skills .main .overone .overfour {
+    position: relative;
+    bottom: 234px;
+    border-radius: 0 0 20px 20px;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    -ms-border-radius: 0 0 20px 20px;
+    -o-border-radius: 0 0 20px 20px;
 }

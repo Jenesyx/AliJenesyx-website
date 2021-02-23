@@ -5,7 +5,7 @@ window.onload = function(){
     }
 }
 
-function havij(t) 
+function banana(t) 
 {   
     if (t == "in")
     {
@@ -21,6 +21,7 @@ function havij(t)
         return
     }
 }
+
 
 function moz(t) 
 {   
@@ -72,4 +73,3 @@ function gilas(t)
         return
     }
 }
-
