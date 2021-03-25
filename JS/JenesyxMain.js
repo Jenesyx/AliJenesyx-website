@@ -73,3 +73,19 @@ function gilas(t)
         return
     }
 }
+
+function youtube(t)
+{
+    if (t == "in")
+    {
+        document.getElementById('skillimage1').src = "../Images/yttwitch blue.png"
+        return
+    }
+
+    else (t == "out")
+    {
+        document.getElementById('skillimage1').src = "../Images/yttwitch white.png"
+        return
+    }
+
+}

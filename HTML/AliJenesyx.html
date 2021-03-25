@@ -8,106 +8,118 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../bootstrap-5.0.0-beta2-dist/css/bootstrap-grid.min.css">
+    <script src="../bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/parallax/parallax.js"></script>
     <link rel="stylesheet/scss" href="../CSS/Border.scss">
     <title>AliJenesyx</title>
 </head>
 <body>
-    <nav id="nav">
-        <div class="header">
-            <div class="left">
-                <ul>                   
-                    <li class="btn-1"><a href="#socialmedia" >Social media</a></li>
-                    <li class="btn-1"><a href="#aboutme">About me</a></li>
-                    <li class="btn-1"><a href="#skills">Skills</a></li>
-                    <li class="btn-1"><a href="#">My examples</a></li>
+    <!-- Start Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="../Images/LogoPNG.png" alt="My Logo"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#aboutme"><i class="fas fa-user"></i>About Me</a>
+                    </li>
+                    <li>
+                        <a href="#socialmedia"><i class="fas fa-hashtag"></i>Social Media</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-medal"></i>Skills</a>
+                    </li>
                 </ul>
+             </nav>
+            <h1>AliJenesyx</h1>
+            <div class="myface">
+                <img src="../Images/face png .png" alt="My Face">
             </div>
         </div>
-        <div class="clear"></div>
-    </nav>
+    </header>
+    <!-- End Header -->
 
-    <div class="parallax">
-        <h1>Ali JENESYX</h1>
-    </div>
-
-    <div id="aboutme">
-        <a href="#"><img src="../Images/Myimage.jpeg" alt="My Image"></a>
-        <div class="overlay"></div>
-        <p>I'm Ali and I'm 16 years old, I have been living in Germany for three years and I started streaming on YouTube three years ago and a year and a half later I started streaming on Twitch. I'm currently designing a website and doing graphic work professionally.
-        The goal is to create useful content on YouTube that I can share with other people. If you have a problem with YouTube and streaming, I can solve it!</p>
-    </div>
-
-    <section id="socialmedia">
-        <div class="headover"></div>
-        <div class="social">
-            <div class="right">
-                <ul>
-                    <li>
-                        <a href="https://www.twitch.tv/legendarybosstv">
-                            <img class="twitch" src="../Images/Twitch.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://invite.gg/legendarybax ">
-                            <img class="discord" src="../Images/discord.png" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="left">
-                <ul>
-                    <li>
-                        <a href="https://www.instagram.com/legendarybosstv/?hl=en">
-                            <img  class="instagram" src="../Images/Instagram.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img  class="youtube" src="../Images/YouTube.png" alt="">
-                        </a>
-                    </li>
-                </ul>
+    <!-- Start AboutMe -->
+    <section id="aboutme">
+        <div class="container">
+            <div class="aboutme-holder">
+                <img src="../Images/Myimage.jpeg" alt="">
+                <div class="glass">
+                    <p>
+                        I'm Ali and I'm 16 years old, I have been <br> 
+                        living in Germany for three years and <br>
+                        I started streaming on YouTube three years <br>
+                        ago and a year and a half later I started <br>
+                        streaming on Twitch. I'm currently designing <br>
+                        a website and doing graphic work <br>
+                        professionally. The goal is to create useful content on YouTube <br>
+                        that I can share with other people. <br>
+                        If you have a problem with YouTube and <br>
+                        streaming, I can solve it! <br>
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-    <div class="clear"></div>
-    <div id="skills">
-        <div class="leftover"></div>
-        <ul class="left">
-            <li>
-                <div class="adobe">
-                    <a href="Adobes-Skills.html"><img id="adobes" onmouseover='banana("in")' onmouseout='banana("out")' src="../Images/adobess.png" alt=""></a>
-                    <p id="text1">Adobes</p>
-                </div>
-            </li>
-            <li>
-                <div class="twitchyt">
-                    <a href="twitchyt-skills.html"><img onmouseover='moz("in")' onmouseout='moz("out")' src="../Images/twitchandyoutube.png" alt=""></a>
-                    <p id="text2">Twitch/YouTube</p>
-                </div>
-            </li>
-        </ul>    
-        <ul class="right">        
-            <li>
-                <div class="musicsports">
-                    <a href="Musicsport-skills.html"><img onmouseover='sib("in")' onmouseout='sib("out")' src="../Images/musicparkour.png" alt=""></a>
-                    <p id="text3">Music/Sports</p>
-                </div>
-            </li>
-            <li>
-                <div class="gaming">
-                    <a href="gaming-skills.html"><img onmouseover='gilas("in")' onmouseout='gilas("out")' src="../Images/gaming .png" alt=""></a>
-                    <p id="text4">Esport</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="clear"></div>
-    <footer id="footer">
+    <!-- End AboutMe -->
+
+    <!-- Start Parallax -->
+    <section class="parallax">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1c1f3f" fill-opacity="1" d="M0,224L120,240C240,256,480,288,720,282.7C960,277,1200,235,1320,213.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1c1f3f" fill-opacity="1" d="M0,224L120,240C240,256,480,288,720,282.7C960,277,1200,235,1320,213.3L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+        </div>
+    </section>
+    <!-- End Parallax -->
+
+    <!-- Start Socialmedia -->
+    <section id="socialmedia">
         <div class="container">
-        <P> Designed with <i class="fas fa-heart"></i> & <i class="fas fa-coffee"></i> by Jenesyx</P>
-    </div>
-</footer>
+            <div class="social">
+                <a class="twitch" href=""><img src="../Images/twitch.png" alt=""></a>
+            </div>
+            <div class="social">
+                <a class="discord" href=""><img src="../Images/discord.png" alt=""></a>
+            </div>
+            <div class="social">
+                <a class="youtube" href=""><img src="../Images/youtube.png" alt=""></a>
+            </div>
+            <div class="social">
+                <a class="instagram" href=""><img src="../Images/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Socialmedia -->
+    
+    <!-- Start Parallax -->
+    <section class="secondparallax">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1c1f3f" fill-opacity="1" d="M0,128L120,106.7C240,85,480,43,720,53.3C960,64,1200,128,1320,160L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1c1f3f" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,106.7C960,107,1200,181,1320,218.7L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+        </div>  
+    </section>
+    <!-- End Parallax -->
+
+    <!-- Start Skills -->
+    <section id="skills">
+        <div class="skills-holder">
+            <div class="youtube">
+                <a href=""><img src="../Images/gaming .png" alt=""></a>
+                <h3></h3>
+            </div>
+            <div class="gaming">
+                <a href=""><img src="../Images/gaming .png" alt=""></a>
+                <h3></h3>
+            </div>
+            <div class="adobes">
+                <a href=""><img src="../Images/gaming .png" alt=""></a>
+                <h3></h3>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills -->
 </body>
 </html>
