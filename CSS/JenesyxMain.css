@@ -202,7 +202,7 @@ li > a:hover::after {
 #socialmedia {
     text-align: center;
     width: 100%;
-    padding-top: 90px;
+    margin-top: 100px;
     /* background: red; */
 }
 
@@ -213,8 +213,10 @@ li > a:hover::after {
 }
 
 #socialmedia .social a {
-    background: #3b4382 ;
+    background: #3b4382;
     padding: 120px 175px 60px 175px;
+    -webkit-box-shadow: 0px 0px 11px 3px #000000;
+    box-shadow: 0px 0px 11px 3px #000000;
 }
 
 #socialmedia .social .twitch {
@@ -223,6 +225,15 @@ li > a:hover::after {
     -moz-border-radius: 30px 0 0 0;
     -ms-border33-radius: 30px 0 0 0;
     -o-border-radius: 30px 0 0 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#socialmedia .social .twitch:hover {
+    padding: 140px 175px 70px 195px;
 }
 
 #socialmedia .social .discord {
@@ -231,6 +242,15 @@ li > a:hover::after {
     -moz-border-radius: 0 30px 0 0;
     -ms-border-radius: 0 30px 0 0;
     -o-border-radius: 0 30px 0 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#socialmedia .social .discord:hover {
+    padding: 140px 175px 70px 195px;
 }
 
 #socialmedia .social .youtube {
@@ -239,6 +259,15 @@ li > a:hover::after {
     -moz-border-radius: 0 0 0 30px;
     -ms-border-radius: 0 0 0 30px;
     -o-border-radius: 0 0 0 30px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#socialmedia .social .youtube:hover {
+    padding: 140px 175px 70px 195px;
 }
 
 #socialmedia .social .instagram {
@@ -247,10 +276,19 @@ li > a:hover::after {
     -moz-border-radius: 0 0 30px 0;
     -ms-border-radius: 0 0 30px 0;
     -o-border-radius: 0 0 30px 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#socialmedia .social .instagram:hover {
+    padding: 140px 175px 70px 195px;
 }
 
 #socialmedia .social img {
-    width: 16%;
+    width: 15%;
 }
 
 /* Parallax */
@@ -267,21 +305,100 @@ li > a:hover::after {
 /* Skills */
 #skills {
     width: 100%;
-    height: 800px;
     text-align: center;
-    background: red;
-    margin-top: 100px;
-}
-
-#skills .skills-holder {
-    margin: auto;
-    background: green;
-    width: 90%;
-    height: 100%;
+    /* background: red; */
+    margin-top: 90px;
+    position: relative;
 }
 
 #skills img {
-    width: 10%;
+    width: 14%;
+}
+
+#skills .skill {
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+}
+
+#skills .skill a {
+    background: none;
+    padding: 180px 300px 8px 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+#skills .skill a:hover {
+    background: #3b4382;
+}
+
+#skills .skill .youtube {
+    margin-right: 250px;
+}
+
+#skills .skill .youtube-title {
+    font-family: Roboto;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    right: 570px;
+    display: inline-block;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#skills .skill .gaming {
+    margin-left: 200px;
+}
+
+#skills .skill .gaming-title {
+    font-family: Roboto;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    right: 320px;
+    display: inline-block;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#skills .skill .adobes {
+    margin-right: 50px;
+}
+
+#skills .skill .adobes-title {
+    font-family: Roboto;
+    font-size: 25px;
+    color: #fff;
+    position: relative;
+    right: 380px;
+    display: inline-block;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.height {
+    width: 100%;
+    height: 800px;
+    background: yellowgreen;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */

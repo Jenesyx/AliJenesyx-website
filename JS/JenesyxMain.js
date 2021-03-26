@@ -9,83 +9,52 @@ function banana(t)
 {   
     if (t == "in")
     {
-        document.getElementById('text1').style.left = "290px"
-        document.getElementById('text1').style.bottom = "125px"
+        document.getElementById('youtube-title').style.marginLeft = "100px"
+        document.getElementById('youtube-title').style.bottom = "70px"
         return
     }
     
     else (t == "out")
     {
-        document.getElementById('text1').style.left = "180px"
-        document.getElementById('text1').style.bottom = "40px"
+        document.getElementById('youtube-title').style.marginLeft = "0"
+        document.getElementById('youtube-title').style.bottom = "0"
         return
     }
+    
 }
 
-
-function moz(t) 
+function apple(t) 
 {   
     if (t == "in")
     {
-        document.getElementById('text2').style.left = "310px"
-        document.getElementById('text2').style.bottom = "120px"
+        document.getElementById('gaming-title').style.marginLeft = "100px"
+        document.getElementById('gaming-title').style.bottom = "70px"
         return
     }
     
     else (t == "out")
     {
-        document.getElementById('text2').style.left = "230px"
-        document.getElementById('text2').style.bottom = "20px"
+        document.getElementById('gaming-title').style.marginLeft = "0"
+        document.getElementById('gaming-title').style.bottom = "0"
         return
     }
+    
 }
 
-function sib(t) 
+function ananas(t) 
 {   
     if (t == "in")
     {
-        document.getElementById('text3').style.left = "360px"
-        document.getElementById('text3').style.bottom = "120px"
+        document.getElementById('adobes-title').style.marginLeft = "100px"
+        document.getElementById('adobes-title').style.bottom = "70px"
         return
     }
     
     else (t == "out")
     {
-        document.getElementById('text3').style.left = "260px"
-        document.getElementById('text3').style.bottom = "20px"
-        return
-    }
-}
-
-function gilas(t) 
-{   
-    if (t == "in")
-    {
-        document.getElementById('text4').style.left = "310px"
-        document.getElementById('text4').style.bottom = "120px"
+        document.getElementById('adobes-title').style.marginLeft = "0"
+        document.getElementById('adobes-title').style.bottom = "0"
         return
     }
     
-    else (t == "out")
-    {
-        document.getElementById('text4').style.left = "180px"
-        document.getElementById('text4').style.bottom = "30px"
-        return
-    }
-}
-
-function youtube(t)
-{
-    if (t == "in")
-    {
-        document.getElementById('skillimage1').src = "../Images/yttwitch blue.png"
-        return
-    }
-
-    else (t == "out")
-    {
-        document.getElementById('skillimage1').src = "../Images/yttwitch white.png"
-        return
-    }
-
 }
