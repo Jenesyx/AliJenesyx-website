@@ -52,31 +52,28 @@ a {
 }
 
 #skills .youtube {
-    /*background: red;*/
-    margin: 50px 0 0 480px;
-}
-
-#skills .youtube a {
-    color: #fff;
-    font-size: 36px;
+    width: 2%;
+    position: relative;
+    top: 26px;
+    margin: 10px 0 0 490px;
     background: #3b4382;
-    padding: 5px 6px 20px 5px;
+    padding: 5px 21px 20px 0;
     border-radius: 10px 10px 0 0;
     -webkit-border-radius: 10px 10px 0 0;
     -moz-border-radius: 10px 10px 0 0;
     -ms-border-radius: 10px 10px 0 0;
     -o-border-radius: 10px 10px 0 0;
-    transition: 0.6s;
-    -webkit-transition: 0.6S;
-    -moz-transition: 0.6S;
-    -ms-transition: 0.6S;
-    -o-transition: 0.6S;
-    
 }
 
-#skills .youtube a:hover {
-    color: #3b4382;
-    background: #fff;
+#skills .youtube a {
+    width: 100%;
+    padding: 9px;
+    background: red;
+}
+
+#skills .youtube img {
+    margin-left: 8px;
+    width: 100%;
 }
 
 #skills .main {
