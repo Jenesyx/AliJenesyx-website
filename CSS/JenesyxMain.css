@@ -52,11 +52,11 @@ body {
 
 #header .logo {
     float: left;
-    padding-top: 10px;
+    padding-top: 22px;
 }
 
 #header .logo img {
-    width: 60px;
+    width: 100px;
 }
 
 /* Navigation */
@@ -133,7 +133,7 @@ li > a:hover::after {
 }
 
 #header .myface img {
-    width: 50%;
+    width: 45%;
     float: right;
 }
 
@@ -161,6 +161,16 @@ li > a:hover::after {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
+    transition: 0.45s;
+    -webkit-transition: 0.45s;
+    -moz-transition: 0.45s;
+    -ms-transition: 0.45s;
+    -o-transition: 0.45s;
+}
+
+#aboutme img:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 #aboutme .glass {
@@ -175,6 +185,17 @@ li > a:hover::after {
     -webkit-backdrop-filter: blur( 9.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+#aboutme .glass:hover {
+    width: 50%;
+    height: 700px;
+    top: 30px;
 }
 
 #aboutme .glass p {
@@ -184,6 +205,17 @@ li > a:hover::after {
     margin-top: 110px;
     line-height: 33px;
     font-size: 19px;
+    transition: 0.425s;
+    -webkit-transition: 0.425s;
+    -moz-transition: 0.425s;
+    -ms-transition: 0.425s;
+    -o-transition: 0.425s;
+}
+
+#aboutme .glass:hover p {
+    font-size: 30px;
+    margin-top: 155px;
+    line-height: 35px;
 }
 
 /* Parallax */
@@ -425,6 +457,33 @@ li > a:hover::after {
     -o-border-radius: 30px;
     -webkit-box-shadow: 0px 0px 10px 1px #000000; 
     box-shadow: 0px 0px 10px 1px #000000;   
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 45px;
+    background: #3C495E;
+    height: 60px;
+    text-align: center;
+    color: #fff;
+    padding: 1px;
+}
+
+#footer .footer-info {
+    margin-top: 20px;
+}
+
+#footer .footer-info p {
+    font-size: 18px;
+}
+
+#footer .fa-heart {
+    color: #D52A2A;
+}
+
+#footer .fa-coffee {
+    color: #f9ab25;
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
