@@ -76,7 +76,7 @@ body {
 
 #header .icons a {
     color: #fff;
-    font-size: 40px;
+    font-size: 38px;
     background: #3B4382;
     padding: 8px;
     border-radius: 16.9px;
@@ -108,15 +108,22 @@ body {
 
 #header .dropdown a {
     display: block;
+    padding: 8px;
 }
 
 #header .dropdown-btn:hover .dropdown{
     display: inline-block;
 }
 
-#header .dropdown-btn .dropdown .adobe {
+#header .dropdown-btn .dropdown .youtube {
     margin-top: 10px;
 }
+
+#header .dropdown-btn .dropdown .fa-youtube {
+    margin-left: 3px;
+}
+
+
 
 /* Text Holder */
 #text-holder .bg {
