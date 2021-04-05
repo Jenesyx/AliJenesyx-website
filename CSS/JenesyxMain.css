@@ -19,7 +19,7 @@
 ::-webkit-scrollbar-track {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
-	background-color: #1c1f3f;
+	background-color: #1c1f3f; 
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
@@ -522,28 +522,220 @@ li > a:hover::after {
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-width: 1537px) {
+
     /* Parallax */
     .parallax {
-        width: 100%;
         height: 645px;
-        background-image: url(../Images/Main1.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .parallax svg {
-        text-align: center;
     }
     
-    /* Parallax */
     .secondparallax {
-        width: 100%;
         height: 640px;
-        margin-top: 200px;
-        text-align: center;
-        background-image: url(../Images/Main1.jpg);
-        background-size: cover;
-        background-attachment: fixed;
+    }    
+}
+
+/* 15 Inch laptop */
+@media only screen and (max-width: 1441px) {
+
+    /* About me */
+    #aboutme img {
+        top: 150px;
+        left: 270px;
+    }
+
+    #aboutme .glass {
+        height: 510px;
+    }
+
+    #aboutme .glass:hover {
+        width: 40%;
+        height: 550px;
+        top: 100px
+    }
+
+    #aboutme .glass p {
+        margin-top: 80px;
+    }
+
+    #aboutme .glass:hover p {
+        font-size: 25px;
+        margin-top: 100px;
+    }
+
+    /* Parallax */
+    .parallax {
+        height: 635px;
+    }
+    
+    .secondparallax {
+        height: 635px;
+    }
+
+}
+
+/* 14 Inch laptop */
+@media only screen and (max-width: 1345px) {
+
+    /* Header */
+    #header .title {
+        font-size: 65px;
+    }
+
+    /* About me */
+    #aboutme img {
+        top: 160px;
+        left: 220px;
+    }
+
+    #aboutme .glass {
+        width: 34%;
+        height: 500px;
+    }
+
+    #aboutme .glass:hover {
+        width: 45%;
+        height: 550px;
+        top: 60px;
+    }
+
+    #aboutme .glass p {
+        margin-top: 80px;
+        line-height: 34px;
+        font-size: 18px;
+    }
+
+    #aboutme .glass:hover p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    /* Parallax */
+    .parallax {
+        height: 590px;
+    }
+        
+    .secondparallax {
+        height: 595px;
+    }
+
+    /* Socialmedia */
+    #socialmedia {
+        padding-top: 140px;
+    }
+    
+    #socialmedia .social {
+        margin-top: 90px;
+        width: 35%;
+        height: 110px;
+    }
+    
+    #socialmedia .social a {
+        padding: 100px 155px 50px 155px;
+    }
+
+    #socialmedia .social .twitch:hover {
+        padding: 125px 145px 60px 190px;
+    }
+
+    #socialmedia .social .discord:hover {
+        padding: 125px 150px 60px 185px;
+    }
+
+    #socialmedia .social .youtube:hover {
+        padding: 110px 145px 70px 190px;
+    }
+
+    #socialmedia .social .instagram:hover {
+        padding: 115px 150px 70px 185px;
+    }
+}
+
+/* 13 Inch laptop */
+@media only screen and (max-width: 1249px) {
+    /* Parallax */
+    .parallax {
+        height: 548px;
+    }
+        
+    .secondparallax {
+        height: 548px;
+    }
+}
+
+/* 12 Inch laptop */
+@media only screen and (max-width: 1153px) {
+
+    /* About me */
+    #aboutme {
+        margin-top: 0;
+    }
+
+    #aboutme img {
+        left: 170px;
+    }
+
+    #aboutme .glass {
+        width: 36%;
+        height: 450px;
+    }
+
+    #aboutme .glass:hover {
+        width: 47%;
+        height: 550px;
+    }
+
+    #aboutme .glass p {
+        margin-top: 45px;
+        font-size: 16px;
+    }
+
+    #aboutme .glass:hover p {
+        margin-top: 80px;
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    /* Parallax */
+    .parallax {
+        height: 508px;
+    }
+            
+    .secondparallax {
+        height: 508px;
+    }
+
+    /* Socialmedia */
+    #socialmedia {
+        padding-top: 0;
+    }
+    
+    #socialmedia .social {
+        margin-top: 90px;
+        width: 42%;
+        height: 110px;
+    }
+
+    #skills .skill a {
+        padding: 130px 300px 8px 20px;
+    }
+
+    #skills .skill .youtube {
+        margin-right: 100px;
+    }
+    
+    #skills .skill .youtube-title {
+        right: 410px;
+    }
+    
+    #skills .skill .gaming {
+        margin-left: 300px;
+    }
+    
+    #skills .skill .gaming-title {
+        right: 310px;
+    }
+    
+    #skills .skill .adobes-title {
+        right: 365px;
     }
 }
 
@@ -552,11 +744,11 @@ li > a:hover::after {
 
     #header .logo {
         float: left;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
     #header .logo img {
-        width: 70px;
+        width: 45px;
     }
 
     #nav svg {
@@ -567,7 +759,7 @@ li > a:hover::after {
 
     #nav a {
         font-family: Roboto;
-        font-size: 20px;
+        font-size: 15px;
         color: #777;
         position: relative;
         bottom: 30px;
@@ -583,7 +775,7 @@ li > a:hover::after {
     }
 
     #header .myface img {
-        width: 45%;
+        width: 40%;
         float: right;
     }
 
